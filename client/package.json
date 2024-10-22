@@ -53,6 +53,7 @@
         "shiki": "^1.14.1",
         "sortablejs": "^1.15.0",
         "svelte-french-toast": "^1.2.0",
-        "tippy.js": "^6.3.7"
+        "tippy.js": "^6.3.7",
+        "yaml": "^2.4.2"
     }
 }

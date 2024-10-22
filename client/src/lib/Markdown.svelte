@@ -6,7 +6,7 @@
 
     marked.use(gfmHeadingId());
 
-    let markdownHtml = marked.parse(content, { gfm: true }) as string;
+    $: markdownHtml = marked.parse(content, { gfm: true }) as string;
 </script>
 
 <div class="markdown">

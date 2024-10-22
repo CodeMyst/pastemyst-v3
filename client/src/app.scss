@@ -123,8 +123,13 @@ code {
         gap: 1rem;
     }
 
+<<<<<<< Updated upstream
     &.wrap {
         flex-wrap: wrap;
+=======
+    &.gap-l {
+        gap: 2rem;
+>>>>>>> Stashed changes
     }
 
     @media screen and (max-width: $break-med) {
@@ -351,20 +356,16 @@ section {
     line-height: 1.5rem;
     font-size: $fs-normal;
 
-    h1 {
-        margin-top: 0;
-    }
-
-    h1:first-child {
-        margin-top: 1rem;
-    }
-
     h1,
     h2,
     h3 {
         border-bottom: 1px solid var(--color-bg2);
         padding-bottom: 0.5rem;
         margin-top: 2rem;
+    }
+
+    h1:first-child {
+        margin-top: 0;
     }
 
     blockquote {
